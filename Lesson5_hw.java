@@ -6,11 +6,17 @@
  * @link https://github.com/ToughG/GeekBrains_Java-1_HomeWorks
  */
 class Lesson5_hw{
-	
-public static void main(String[] args){
+        
+    public static void main(String[] args){
 
-}
+    }
+} 
 
-
-
-}
+class Employee{
+    String fio;
+    String position;
+    String email;
+    String phnumb;
+    int salary;
+    int age;  
+}      
