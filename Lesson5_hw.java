@@ -9,6 +9,7 @@ class Lesson5_hw{
         
     public static void main(String[] args){
         Employee emp1 = new Employee("Jack Willson", "Manager", "jacky80@gmail.com", "+996559814567", 50000, 37);
+        emp1.printObject();
     }
 } 
 
@@ -26,8 +27,11 @@ class Employee{
         this.email = email;
         this.phnumb = phnumb;
         this.salary = salary;
-        this.age = age;
-      
+        this.age = age;    
     }
-   
+    
+    void printObject(){
+        System.out.println("Name: " + this.fio + "\nPosition: " + this.pos + "\nE-mail: " + this.email + 
+                           "\nPhone number: " + this.phnumb + "\nSalary: " + this.salary + "\nAge: " + this.age);
+    }   
 }      
