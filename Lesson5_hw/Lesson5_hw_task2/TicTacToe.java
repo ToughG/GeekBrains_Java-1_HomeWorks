@@ -1,5 +1,9 @@
 /**
- * Created by ToughGuy on 08.12.2017.
+ * Java. Level 1. Lesson 5. Homework . Task 2(TicTacToe in OOP style)
+ *
+ * @author Rashit Ibragimov
+ * @version dated Dec 8, 2017
+ * @link https://github.com/ToughG/GeekBrains_Java-1_HomeWorks
  */
 public class TicTacToe {
     public static void main(String[] args) {
