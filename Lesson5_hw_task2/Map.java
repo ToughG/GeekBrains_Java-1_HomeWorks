@@ -1,0 +1,31 @@
+/**
+ * Created by ToughGuy on 08.12.2017.
+ */
+public class Map{
+
+    char[][] map = new char[Constant.SIZE][Constant.SIZE];
+
+    void initMap() {                                // init game's field
+        for (int i = 0; i < Constant.SIZE; i++)
+            for (int j = 0; j < Constant.SIZE; j++)
+                map[i][j] = Constant.DOT_EMPTY;
+    }
+
+    void printMap() {                               // output game's field
+        for (int i = 0; i < Constant.SIZE; i++) {
+            for (int j = 0; j < Constant.SIZE; j++)
+                System.out.print(map[i][j] + " ");
+            System.out.println();
+        }
+        System.out.println();
+    }
+
+    boolean isMapFull() {                           // check field filling
+        for (int i = 0; i < Constant.SIZE; i++)
+            for (int j = 0; j < Constant.SIZE; j++)
+                if (map[i][j] == Constant.DOT_EMPTY)
+                    return false;
+        return true;
+    }
+
+}
